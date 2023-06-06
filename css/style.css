@@ -6,6 +6,10 @@
 
 :root {}
 
+.flex {
+    display: flex;
+}
+
 /* HEADER */
 
 

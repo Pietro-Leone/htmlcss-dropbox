@@ -348,12 +348,23 @@ main {
     width: 100vw;
     height: 300px;
     justify-content: center;
+}
+
+.container-free-try-section {
+    justify-content: space-between;
     align-items: center;
+    width: 950px;
 }
 
 #free-try-section h2 {
-    width: 500px;
-    padding: 0 100px;
+    width: 400px;
+    padding: 0 100px 0 0;
+    color: #61082b;
+    font-weight: bolder;
+}
+
+#free-try-section button {
+    padding: .5rem 2rem;
 }
 
 /* FAQ-SECTION */
@@ -386,6 +397,10 @@ footer {
     justify-content: space-around;
 }
 
+footer h3 {
+    margin-bottom: 2rem;
+}
+
 footer li {
     margin: 1rem 0;
 }
@@ -398,4 +413,9 @@ footer a {
 footer hr {
     margin-top: var(--space);
     margin-bottom: calc(var(--space) / 2);
+    width: 70%;
+}
+
+footer .lang {
+    color: gray;
 }

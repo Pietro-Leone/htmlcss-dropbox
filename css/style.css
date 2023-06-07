@@ -277,6 +277,7 @@ main {
 #partner-section {
     width: 100vw;
     margin-bottom: 0;
+    position: relative;
 }
 
 .partner-box {
@@ -336,22 +337,58 @@ main {
     height: calc(100vw /3);
 }
 
-.logo {
+.none {
     display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    left: calc((100vw / 3) * 2 - (100vw / 3));
+    top: 0;
+    padding: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vw /3);
+    width: calc(100vw /3);
 }
 
-/* Commento l'hover perché non sono riuscito ancora a farlo funzionare */
-#partner-section:hover
-.designit.logo {
+.partner-logo-box.designit:hover .none {
     display: block;
 }
 
-.partner-box.middle hr {
-    width: 30px;
-    color: lightgray;
+.partner-logo-box.arizona:hover .none {
+    display: block;
 }
 
-.partner-box.middle p {
+.partner-logo-box.florida:hover .none {
+    display: block;
+}
+
+.partner-logo-box.topps:hover .none {
+    display: block;
+}
+
+.partner-logo-box.wbr:hover .none {
+    display: block;
+}
+
+.partner-logo-box.hearst:hover .none {
+    display: block;
+}
+
+.partner-logo-box.lonely_planet:hover .none {
+    display: block;
+}
+
+.partner-logo-box.clear_channel:hover .none {
+    display: block;
+}
+
+.partner-box.middle hr , .none hr {
+    width: 100px;
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.partner-box.middle p , .none p {
     margin: 30px 0;
 }
 

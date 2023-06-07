@@ -341,7 +341,7 @@ main {
 }
 
 /* Commento l'hover perché non sono riuscito ancora a farlo funzionare */
-/* .partner-logo-box.designit:hover*/
+#partner-section:hover
 .designit.logo {
     display: block;
 }

@@ -23,12 +23,22 @@ ul {
     list-style: none;
 }
 
+button {
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    margin: 2px;
+    background-color: white;
+}
+
 section {
     width: 950px;
     margin-bottom: var(--space);
 }
 
 /* HEADER */
+
+/* NAV */
 
 nav {
     justify-content: space-between;
@@ -62,18 +72,12 @@ nav a {
     margin: 1rem;
 }
 
-button {
-    border: none;
-    padding: .5rem 1rem;
-    cursor: pointer;
-    margin: 2px;
-    background-color: white;
-}
-
 .right-nav button:last-child {
     background-color: var(--button-color);
     color: white;
 }
+
+/* HERO-SECTION */
 
 #hero-section {
     background-color: var(--main-color);
@@ -371,3 +375,27 @@ main {
 }
 
 /* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    padding: var(--space);
+    justify-content: space-around;
+}
+
+footer li {
+    margin: 1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer hr {
+    margin-top: var(--space);
+    margin-bottom: calc(var(--space) / 2);
+}

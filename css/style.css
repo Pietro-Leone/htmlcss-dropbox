@@ -340,8 +340,9 @@ main {
     display: none;
 }
 
-.logo.designit{
-    display: inline-block;
+/* Commento l'hover perché non sono riuscito ancora a farlo funzionare */
+/* .partner-logo-box.designit:hover*/.designit.logo{ 
+    display: block;
 }
 
 .partner-box.middle hr {
@@ -393,8 +394,29 @@ main {
     border-top: 1px solid #d0d0d3;
 }
 
-.faq:last-child {
+.faq-box:last-child {
     border-bottom: 1px solid #d0d0d3;
+}
+
+.answ{
+    display: none;
+    padding-bottom: 30px;
+}
+
+.quest{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #d0d0d3;
+}
+
+.faq-box:hover .faq{
+    display: none;
+}
+
+.faq-box:hover .answ{
+    display: block;
 }
 
 /* FOOTER */

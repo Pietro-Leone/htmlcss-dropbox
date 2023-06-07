@@ -350,45 +350,19 @@ main {
     width: calc(100vw /3);
 }
 
-.partner-logo-box.designit:hover .none {
+.partner-logo-box:hover .none {
     display: block;
 }
 
-.partner-logo-box.arizona:hover .none {
-    display: block;
-}
-
-.partner-logo-box.florida:hover .none {
-    display: block;
-}
-
-.partner-logo-box.topps:hover .none {
-    display: block;
-}
-
-.partner-logo-box.wbr:hover .none {
-    display: block;
-}
-
-.partner-logo-box.hearst:hover .none {
-    display: block;
-}
-
-.partner-logo-box.lonely_planet:hover .none {
-    display: block;
-}
-
-.partner-logo-box.clear_channel:hover .none {
-    display: block;
-}
-
-.partner-box.middle hr , .none hr {
-    width: 100px;
+.partner-box.middle hr,
+.none hr {
+    width: 90px;
     color: lightgray;
     margin-top: 20px;
 }
 
-.partner-box.middle p , .none p {
+.partner-box.middle p,
+.none p {
     margin: 30px 0;
 }
 

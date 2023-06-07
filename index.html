@@ -63,8 +63,8 @@
         <section id="plan-section">
             <h2>Trova il piano business che fa per te</h2>
             <div class="radio">
-                <input type="radio"> Fatturazione mensile
-                <input type="radio"> Fatturazione annuale
+                <input type="radio" name="fatturazione"> Fatturazione mensile
+                <input type="radio" name="fatturazione"> Fatturazione annuale
             </div>
             <div class="plan-container flex">
                 <!-- LEFT-COL -->
@@ -170,13 +170,18 @@
                     <div class="title-plan">
                         <i class="fa-solid fa-building"></i> Team
                     </div>
-                    <div class="plan-text-body">
-                        <h3>Enterprise</h3>
-                        <span class="price-plan">Contatta l'ufficio vendite per i prezzi</span>
-                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
-                            su qualsiasi scala.</p>
+                    <div class="container-bottom-col flex">
+                        <div class="plan-text-body">
+                            <h3>Enterprise</h3>
+                            <span class="price-plan">Contatta l'ufficio vendite per i prezzi</span>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                gestione
+                                su qualsiasi scala.</p>
+                        </div>
+                        <div class="button">
+                            <button>Contatta l'ufficio vendite</button>
+                        </div>
                     </div>
-                    <button>Contatta l'ufficio vendite</button>
                 </div>
             </div>
         </section>
@@ -269,8 +274,9 @@
                 <hr>
                 <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte
                     soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper.
-                    Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
-                    <p>Morten Thomsen, Global IT Lead</p>
+                    Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".
+                </p>
+                <p>Morten Thomsen, Global IT Lead</p>
             </div>
             <div class="partner-box r flex">
                 <div class="partner-logo-box"><img src="imgs/world_bicycle_relief.svg" alt="wbr"></div>
@@ -280,19 +286,21 @@
             </div>
         </section>
         <!-- FREE-TRY-SECTION -->
-        <section id="free-try-section">
+        <section id="free-try-section" class="flex">
             <h2>Porta Dropbox Business nella tua azienda</h2>
-            <button>Inizia la tua prova gratuita</button>
+            <div>
+                <button>Inizia la tua prova gratuita</button>
+            </div>
         </section>
         <!-- FAQ-SECTION -->
         <section id="faq-section">
             <h2>Domande frequenti</h2>
-            <div class="faq">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <button><i
-                        class="fa-solid fa-chevron-down"></i></button></div>
-            <div class="faq">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <button><i
-                        class="fa-solid fa-chevron-down"></i></button></div>
-            <div class="faq">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <button><i
-                        class="fa-solid fa-chevron-down"></i></button></div>
+            <div class="faq flex">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                <button><i class="fa-solid fa-chevron-down"></i></button></div>
+            <div class="faq flex">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                <button><i class="fa-solid fa-chevron-down"></i></button></div>
+            <div class="faq flex">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                <button><i class="fa-solid fa-chevron-down"></i></button></div>
         </section>
     </main>
 

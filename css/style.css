@@ -70,6 +70,7 @@ nav ul {
 nav a {
     text-decoration: none;
     margin: 1rem;
+    color: black;
 }
 
 .right-nav button:last-child {

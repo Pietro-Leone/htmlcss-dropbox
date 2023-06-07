@@ -336,12 +336,13 @@ main {
     height: calc(100vw /3);
 }
 
-.logo{
+.logo {
     display: none;
 }
 
 /* Commento l'hover perché non sono riuscito ancora a farlo funzionare */
-/* .partner-logo-box.designit:hover*/.designit.logo{ 
+/* .partner-logo-box.designit:hover*/
+.designit.logo {
     display: block;
 }
 
@@ -398,12 +399,12 @@ main {
     border-bottom: 1px solid #d0d0d3;
 }
 
-.answ{
+.answ {
     display: none;
     padding-bottom: 30px;
 }
 
-.quest{
+.quest {
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -411,11 +412,11 @@ main {
     border-top: 1px solid #d0d0d3;
 }
 
-.faq-box:hover .faq{
+.faq-box:hover .faq {
     display: none;
 }
 
-.faq-box:hover .answ{
+.faq-box:hover .answ {
     display: block;
 }
 
